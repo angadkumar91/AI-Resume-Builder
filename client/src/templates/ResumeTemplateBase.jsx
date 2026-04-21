@@ -239,31 +239,27 @@ function DelimitedTextarea({
     () => draftCache.get(fieldKey) ?? textFromItems,
   );
   const latestDraftRef = useRef(draft);
-  const onCommitRef = useRef(onCommit);
-
-  useEffect(() => {
-    onCommitRef.current = onCommit;
-  }, [onCommit]);
+  const isFocusedRef = useRef(false);
 
   const parseDraft = (text) => {
     if (mode === "custom") return splitCustomDraft(text);
     return splitSkillsDraft(text);
   };
 
-  useEffect(() => {
-    return () => {
-      const latest = latestDraftRef.current;
-      const parsed =
-        mode === "custom" ? splitCustomDraft(latest) : splitSkillsDraft(latest);
-      onCommitRef.current(parsed);
-      draftCache.set(fieldKey, latest);
-    };
-  }, [fieldKey, mode]);
+  useEffect(
+    () => () => {
+      draftCache.set(fieldKey, latestDraftRef.current);
+    },
+    [fieldKey],
+  );
 
   return (
     <textarea
       rows={rows}
       value={draft}
+      onFocus={() => {
+        isFocusedRef.current = true;
+      }}
       onChange={(event) => {
         const next = event.target.value;
         setDraft(next);
@@ -271,6 +267,7 @@ function DelimitedTextarea({
         draftCache.set(fieldKey, next);
       }}
       onBlur={(event) => {
+        isFocusedRef.current = false;
         const latest = event.target.value;
         latestDraftRef.current = latest;
         draftCache.set(fieldKey, latest);
