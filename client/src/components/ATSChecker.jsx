@@ -15,7 +15,7 @@ function ScoreBadge({ score }) {
   );
 }
 
-export default function ATSChecker({ onOpenGuide }) {
+export default function ATSChecker() {
   const jobDescription = useResumeStore((state) => state.jobDescription);
   const atsResult = useResumeStore((state) => state.atsResult);
   const isCheckingATS = useResumeStore((state) => state.isCheckingATS);
@@ -63,19 +63,10 @@ export default function ATSChecker({ onOpenGuide }) {
 
   return (
     <section className="rounded-2xl border border-slate-200 bg-white/90 p-4 shadow-sm backdrop-blur dark:border-slate-700 dark:bg-slate-900/70">
-      <div className="mb-3 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-        <div className="flex items-center gap-3">
-          <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-600 dark:text-slate-300">
-            ATS Checker
-          </h2>
-          <button
-            type="button"
-            onClick={() => onOpenGuide?.()}
-            className="rounded-full border border-slate-300 bg-white px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.1em] text-slate-600 transition hover:bg-slate-100 dark:border-slate-600 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"
-          >
-            How To Use
-          </button>
-        </div>
+      <div className="mb-3 flex items-center justify-between gap-2">
+        <h2 className="text-sm font-semibold uppercase tracking-[0.16em] text-slate-600 dark:text-slate-300">
+          ATS Checker
+        </h2>
         <button
           type="button"
           onClick={runAtsCheck}
