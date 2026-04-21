@@ -20,10 +20,10 @@ export default function ResumePreview() {
 
   return (
     <>
-      <div className="overflow-auto rounded-2xl border border-slate-200 bg-slate-100 p-3 shadow-preview dark:border-slate-700 dark:bg-slate-950">
+      <div className="overflow-auto rounded-2xl border border-slate-200 bg-slate-100 p-2 sm:p-3 shadow-preview dark:border-slate-700 dark:bg-slate-950">
         <div
           id="resume-preview"
-          className="a4-sheet mx-auto rounded-md bg-white p-7 text-[12px] text-slate-900"
+          className="a4-sheet mx-auto rounded-md bg-white p-4 text-[12px] text-slate-900 sm:p-7"
         >
           <ActiveTemplate
             mode="edit"
@@ -35,7 +35,7 @@ export default function ResumePreview() {
         </div>
       </div>
       <div className="pointer-events-none fixed left-[-10000px] top-0">
-        <div id="resume-export" className="a4-sheet bg-white p-7 text-[12px] text-slate-900">
+        <div id="resume-export" className="a4-sheet bg-white p-4 text-[12px] text-slate-900 sm:p-7">
           <ActiveTemplate mode="print" resume={resume} />
         </div>
       </div>

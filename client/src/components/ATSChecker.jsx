@@ -22,15 +22,17 @@ export default function ATSChecker() {
   const atsError = useResumeStore((state) => state.atsError);
   const setJobDescription = useResumeStore((state) => state.setJobDescription);
   const runAtsCheck = useResumeStore((state) => state.runAtsCheck);
-  const applyAtsSuggestions = useResumeStore((state) => state.applyAtsSuggestions);
+  const applyAtsSuggestions = useResumeStore(
+    (state) => state.applyAtsSuggestions,
+  );
 
   const targetKeywords = atsResult?.keywordsToReach90 || [];
   const placementHints = atsResult?.keywordPlacementHints || [];
   const canApplySuggestions = Boolean(
     atsResult &&
-      ((atsResult?.keywordsToReach90 || []).length ||
-        (atsResult?.stretchKeywordsFor99 || []).length ||
-        (atsResult?.missingKeywords || []).length),
+    ((atsResult?.keywordsToReach90 || []).length ||
+      (atsResult?.stretchKeywordsFor99 || []).length ||
+      (atsResult?.missingKeywords || []).length),
   );
 
   function handleUseSuggestions() {
@@ -124,7 +126,8 @@ export default function ATSChecker() {
                 ))
               ) : (
                 <span className="text-xs text-slate-500 dark:text-slate-300">
-                  Score is near target or no extra keywords required. Re-run after edits for refreshed targets.
+                  Score is near target or no extra keywords required. Re-run
+                  after edits for refreshed targets.
                 </span>
               )}
             </div>
@@ -149,7 +152,8 @@ export default function ATSChecker() {
               <ul className="space-y-1 text-xs text-slate-600 dark:text-slate-300">
                 {placementHints.slice(0, 8).map((item) => (
                   <li key={`${item.keyword}-${item.section}`}>
-                    • <span className="font-semibold">{item.keyword}</span> → {item.section}
+                    • <span className="font-semibold">{item.keyword}</span> →{" "}
+                    {item.section}
                     {item.example ? (
                       <span className="block pl-4 text-[11px] text-slate-500 dark:text-slate-300">
                         e.g. {item.example}
@@ -175,7 +179,8 @@ export default function ATSChecker() {
               Use These Suggestions
             </button>
             <p className="mt-1 text-[11px] text-slate-500 dark:text-slate-300">
-              After applying, run ATS analysis again. Keep iterating until score reaches 90%+.
+              After applying, run ATS analysis again. Keep iterating until score
+              reaches 90%+.
             </p>
           </div>
         </div>
