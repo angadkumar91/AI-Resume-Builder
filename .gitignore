@@ -6,3 +6,4 @@ coverage/
 .DS_Store
 *.log
 server/.env
+Template_Resume_Or_Reference_Resume_Files/
