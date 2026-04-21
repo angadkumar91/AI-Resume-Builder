@@ -1,0 +1,192 @@
+{
+  "resume": {
+    "name": "ANGAD KUMAR",
+    "contact": {
+      "email": "Kumarangad91289@gmail.com",
+      "phone": "9128949854",
+      "location": "",
+      "portfolio": "",
+      "profiles": [
+        {
+          "label": "LinkedIn",
+          "value": "angadkumar54"
+        },
+        {
+          "label": "GitHub",
+          "value": "angadkumar9128"
+        },
+        {
+          "label": "Leet Code",
+          "value": "kumar_A_91289"
+        },
+        {
+          "label": "LeetCode",
+          "value": "kumar_A_91289"
+        }
+      ]
+    },
+    "summary": "AI Engineer with hands-on experience building production-aligned AI and analytics systems. Strong foundation in machine learning, data engineering pipelines, and backend services using Python, Databricks, and Delta Lake, with domain exposure in healthcare and financial analytics.",
+    "skills": [
+      {
+        "category": "Programming Languages",
+        "items": []
+      },
+      {
+        "category": "Ai & Machine Learning",
+        "items": [
+          "Machine Learning",
+          "Anomaly Detection",
+          "Feature Engineering",
+          "Model Integration",
+          "Generative AI"
+        ]
+      },
+      {
+        "category": "Frameworks & Libraries",
+        "items": [
+          "TensorFlow",
+          "NumPy",
+          "Pandas",
+          "Matplotlib",
+          "FastAPI"
+        ]
+      },
+      {
+        "category": "Data Engineering & Analytics",
+        "items": [
+          "Batch & Streaming Pipelines",
+          "Medallion Architecture",
+          "Data Analysis",
+          "Data Engineering Pipelines",
+          "Analytics Workflows"
+        ]
+      },
+      {
+        "category": "Big Data & Platforms",
+        "items": [
+          "Apache Spark",
+          "Databricks",
+          "Delta Lake",
+          "Spark SQL",
+          "Databricks Structured Streaming"
+        ]
+      },
+      {
+        "category": "Databases",
+        "items": [
+          "MongoDB",
+          "PostgreSQL",
+          "MySQL",
+          "MongoDB GridFS"
+        ]
+      },
+      {
+        "category": "Cloud & Development Practices",
+        "items": [
+          "AWS (Foundational)",
+          "Git & GitHub",
+          "Agile",
+          "Oracle Cloud Infrastructure"
+        ]
+      },
+      {
+        "category": "Tools & Ides",
+        "items": [
+          "Power BI",
+          "Excel",
+          "Jupyter Notebook",
+          "PyCharm",
+          "Visual Studio Code"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "role": "Associate AI Engineer",
+        "company": "SriD Software Solutions",
+        "duration": "March 2025 - Present",
+        "points": [
+          "Contributed to AI-driven analytics and machine learning proof-of-concept solutions, including the AIMedicis healthcare intelligence platform.",
+          "Developed backend APIs, data engineering pipelines, and analytics workflows using Python, FastAPI, Databricks, Apache Spark, and Delta Lake.",
+          "Integrated machine learning models into batch and streaming pipelines following Medallion Architecture (Bronze-Silver-Gold) within Agile teams."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "AIMedicis - AI-Driven Healthcare Intelligence Platform",
+        "role": "AI Engineer",
+        "duration": "Ongoing",
+        "points": [
+          "Developed FastAPI-based backend services to support AI-driven healthcare analytics.",
+          "Implemented multi-agent AI workflows for medical data analysis and insight generation.",
+          "Built secure medical image and document management services using MongoDB GridFS."
+        ]
+      },
+      {
+        "name": "NextGen Healthcare Analytics Using Delta Lake",
+        "role": "Transformation Engineer",
+        "duration": "2 months",
+        "points": [
+          "Designed a scalable healthcare analytics platform using PySpark, Spark SQL, and Delta Lake with Medallion Architecture.",
+          "Built schema-aware ingestion pipelines to process complex semi-structured data while preserving raw data traceability.",
+          "Transformed nested JSON into analytics-ready datasets, ensuring referential integrity across core healthcare entities."
+        ]
+      },
+      {
+        "name": "Real-Time Financial Fraud Detection & Monitoring System",
+        "role": "ML & Analytics Engineer",
+        "duration": "3 Months",
+        "points": [
+          "Designed a real-time fraud detection system using Databricks Structured Streaming.",
+          "Implemented Isolation Forest-based anomaly detection for transaction scoring.",
+          "Built Gold-layer datasets and dashboards for real-time fraud monitoring."
+        ]
+      }
+    ],
+    "education": [
+      "• KPRIET College - B.E. in CSE | 2021 - 2025 | Coimbatore, India",
+      "• D.P.R. College - HSC | 2019 - 2020 | Siwan, Bihar"
+    ],
+    "certifications": [
+      "• Databricks Certified Data Engineer Associate - December 2025",
+      "• Oracle Cloud Infrastructure Certified Generative AI Professional - October 2025",
+      "• Oracle AI Foundations Associate - August 2025",
+      "• AWS Cloud Practitioner Essentials - AWS, November 2024",
+      "• The Joy of Computing using Python - NPTEL, June 2024",
+      "• Fundamentals of Data Analytics - L&T, August 2023"
+    ],
+    "achievements": [
+      ""
+    ],
+    "additional": [
+      ""
+    ],
+    "customSections": [
+      {
+        "title": "Area of Interest",
+        "items": [
+          "Data Science",
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Generative AI"
+        ]
+      }
+    ],
+    "sectionTitles": {
+      "summary": "Professional Summary",
+      "experience": "Work Experience",
+      "projects": "Projects",
+      "skills": "Technical Skills",
+      "education": "Education",
+      "certifications": "Certifications",
+      "achievements": "Achievements",
+      "additional": "Additional Details",
+      "custom": "Custom Sections",
+      "profiles": "Profiles"
+    }
+  },
+  "rawText": "ANGAD KUMAR\n\nEmail : Kumarangad91289@gmail.com\nPhone : 9128949854\n\nLinkedIn : angadkumar54\nGitHub : angadkumar9128\nLeet Code : kumar_A_91289\n\nSUMMARY\nAI Engineer with hands-on experience building production-aligned AI and analytics systems. Strong foundation in\nmachine learning, data engineering pipelines, and backend services using Python, Databricks, and Delta Lake, with\ndomain exposure in healthcare and financial analytics.\n\nCERTIFICATIONS\n• Databricks Certified Data Engineer Associate – December 2025\n• Oracle Cloud Infrastructure Certified Generative AI Professional – October 2025\n• Oracle AI Foundations Associate – August 2025\n• AWS Cloud Practitioner Essentials – AWS, November 2024\n• The Joy of Computing using Python – NPTEL, June 2024\n• Fundamentals of Data Analytics – L&T, August 2023\n\nWORK EXPERIENCE\nAssociate AI Engineer – SriD Software Solutions | March 2025 – Present\nContributed to AI-driven analytics and machine learning proof-of-concept solutions, including the AIMedicis\nhealthcare intelligence platform.\nDeveloping backend APIs, data engineering pipelines, and analytics workflows using Python, FastAPI, Databricks,\nApache Spark, and Delta Lake.\nIntegrating machine learning models into batch and streaming pipelines following Medallion Architecture (Bronze–\nSilver–Gold) within Agile teams.\n\nPROJECTS\nAIMedicis – AI-Driven Healthcare Intelligence Platform Role : AI Engineer | Duration: Ongoing\nDeveloped FastAPI-based backend services to support AI-driven healthcare analytics.\nImplemented multi-agent AI workflows for medical data analysis and insight generation.\nBuilt secure medical image and document management services using MongoDB GridFS.\nNextGen Healthcare Analytics Using Delta Lake Role : Transformation Engineer | Duration: 2 month\nDesigned a scalable healthcare analytics platform using PySpark, Spark SQL, and Delta Lake with Medallion Architecture.\nBuilt schema-aware ingestion pipelines to process complex semi-structured data while preserving raw data traceability.\nTransformed nested JSON into analytics-ready datasets, ensuring referential integrity across core healthcare entities.\nReal-Time Financial Fraud Detection & Monitoring System Role: ML & Analytics Engineer | Duration : 3 Month\nDesigned a real-time fraud detection system using Databricks Structured Streaming.\nImplemented Isolation Forest–based anomaly detection for transaction scoring.\nBuilt Gold-layer datasets and dashboards for real-time fraud monitoring.\n\nTECHNICAL SKILLS\n• Programming Languages: Python, SQL, PySpark, Java\n• AI & Machine Learning: Machine Learning, Anomaly Detection, Feature Engineering, Model Integration\n• Frameworks & Libraries: TensorFlow, NumPy, Pandas, Matplotlib\n• Data Engineering & Analytics: Batch & Streaming Pipelines, Medallion Architecture, Data Analysis\n• Big Data & Platforms: Apache Spark, Databricks, Delta Lake\n• Databases: MongoDB, PostgreSQL, MySQL\n• Cloud & Dev Practices: AWS (Foundational), Git & GitHub, Agile\n• Tools & IDEs: Power BI, Excel, Jupyter Notebook, PyCharm, Visual Studio Code\n\nEDUCATION\n• KPRIET College – B.E. in CSE | 2021 - 2025 | Coimbatore, India\n• D.P.R. College – HSC | 2019 - 2020 | Siwan, Bihar\n\nAREA OF INTEREST\n• Data Science • Artificial Intelligence • Machine Learning • Generative AI",
+  "templateId": "minimal",
+  "theme": "light"
+}
