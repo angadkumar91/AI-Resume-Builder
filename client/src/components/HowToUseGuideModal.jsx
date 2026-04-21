@@ -227,6 +227,27 @@ export default function HowToUseGuideModal({ isOpen, onClose }) {
             </ul>
           </Section>
 
+          <Section title="Build Portfolio From Resume (AI Portfolio Builder)">
+            <p>
+              After finalizing your resume here, you can quickly build a portfolio website using
+              your resume content in <strong>AI Portfolio Builder</strong>.
+            </p>
+            <ol className="mt-2 list-decimal space-y-1 pl-5">
+              <li>Open your generated resume preview.</li>
+              <li>Copy resume content (use <strong>Copy Content</strong> button or select all text).</li>
+              <li>Open AI Portfolio Builder in a new tab.</li>
+              <li>Paste content and generate portfolio sections automatically.</li>
+            </ol>
+            <a
+              href="https://ai-portfolio-builder-part-02.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-flex rounded-full border border-emerald-300 bg-emerald-50 px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.1em] text-emerald-700 transition hover:bg-emerald-100 dark:border-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-200 dark:hover:bg-emerald-900/50"
+            >
+              Open AI Portfolio Builder
+            </a>
+          </Section>
+
           <Section title="Common Mistakes To Avoid">
             <ul className="list-disc space-y-1 pl-5">
               <li>Do not paste only one section. Always paste complete resume content.</li>

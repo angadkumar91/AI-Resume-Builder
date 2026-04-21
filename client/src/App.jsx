@@ -67,13 +67,23 @@ function App() {
               edit inline, score against job descriptions, and export to PDF or DOCX.
             </p>
           </div>
-          <button
-            type="button"
-            onClick={() => setIsGuideOpen(true)}
-            className="w-full rounded-full border border-slate-300 bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-slate-700 shadow-sm transition hover:bg-slate-100 sm:w-auto sm:self-start dark:border-slate-600 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800"
-          >
-            Know How To Use
-          </button>
+          <div className="flex w-full flex-col gap-2 sm:w-auto sm:flex-row sm:items-center">
+            <button
+              type="button"
+              onClick={() => setIsGuideOpen(true)}
+              className="w-full rounded-full border border-slate-300 bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-slate-700 shadow-sm transition hover:bg-slate-100 sm:w-auto dark:border-slate-600 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800"
+            >
+              Know How To Use
+            </button>
+            <a
+              href="https://ai-portfolio-builder-part-02.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full rounded-full border border-emerald-300 bg-emerald-50 px-4 py-2 text-center text-xs font-semibold uppercase tracking-[0.12em] text-emerald-700 shadow-sm transition hover:bg-emerald-100 sm:w-auto dark:border-emerald-600 dark:bg-emerald-900/30 dark:text-emerald-200 dark:hover:bg-emerald-900/50"
+            >
+              Open AI Portfolio Builder
+            </a>
+          </div>
         </header>
 
         <div className="grid gap-6 xl:grid-cols-[1fr_1.15fr]">
